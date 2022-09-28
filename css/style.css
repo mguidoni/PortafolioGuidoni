@@ -3,10 +3,13 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
-    font-family: 'Lato', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
+    
+    
+    font-family: 'Raleway', sans-serif;
+    background-color:#F6DDCC;
 }
+
+
 #header{
     width: 100%;
     height: 100px;
@@ -17,14 +20,15 @@ nav{
     width:100%;
     display: flex;
     height:auto;
-    border:1px solid green;
+    /* border:1px solid green */;
     justify-content: flex-end;
-    background-color: #fff;
+  
+    
 }
 nav a{
     text-decoration: none;
     margin:0.5rem;
-    padding:.70rem;
+    padding:.7rem;
     border-radius:2px 4px 1px ;
     border:2px solid red;
    
@@ -32,6 +36,19 @@ nav a{
 
 h1{
     width: 100%;
+    margin :.1rem;
+    padding:.3em;
+    font-family: 'Raleway',sans-serif ;
+    font-weight: bold;
     height: auto;
     text-align: center;
+}
+hr {
+    border-top: 1px solid red;
+    width: 50%;
+    align-items:center ;
+}
+main{
+    padding-top:1rem;
+    margin:5px
 }
